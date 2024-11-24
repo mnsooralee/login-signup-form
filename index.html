@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Log in or Sign up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 class="title">Sign Up</h1>
+            <div class="underline"></div>
+            <form>
+                <div class="input-group">
+                    <div class="input-field name-field">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <input type="text" placeholder="Name" id="name">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope-circle-check"></i>
+                        <input type="email" placeholder="Email" id="email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" id="generatedPass">
+                    </div>
+                    <p id="pass"></p>
+                    <button class="generatePass" onclick="generatePassword()">Generate password</button>
+                    </div>
+                <div class="btn-field">
+                    <button type="button" class="signUpBtn">Sign up</button>
+                    <button type="button" class="disabled signInBtn">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

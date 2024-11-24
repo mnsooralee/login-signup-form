@@ -1,0 +1,108 @@
+* {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {    
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bg.jpg.jpg);
+     */
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    position: relative;
+}
+
+i {
+    color: #fff;
+    margin-left: 15px;
+}
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    min-width: 350px;
+    background: transparent;  
+    border: 2px solid rgba(255, 255, 255, .5);
+    padding: 55px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: -2px 2px 15px rgba(0,0 0,0.5);
+    backdrop-filter: blur(5px);
+}
+.form-box h1 {
+    font-size: 30px;
+    color: greenyellow;
+}
+
+.form-box .underline {
+    width: 30px;
+    height: 4px;
+    background: greenyellow;
+    margin: 10px auto 50px auto;
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+    transition: transform .5s;
+}
+.input-field {
+    margin: 15px 0; /* 15 top-bottom and 0 for left-right */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, .5);
+    max-height: 60px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.input-field input {
+    background: transparent;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.btn-field {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.btn-field button {
+    flex-basis: 48%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: greenyellow;
+    color: black;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+.input-group {
+    height: 300px;
+}
+button.disabled {
+    background: #eaeaea;
+    color: #555;
+}
+.generatePass {
+    background: transparent;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+#forgotPass, .generatePass{
+    color:greenyellow;
+    text-decoration: none;
+}
