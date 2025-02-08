@@ -108,7 +108,7 @@ button.disabled {
 }
 
 @media only screen and (max-width: 650px){
-    .container {
+    .form-box {
         max-width: 90%;
     }
 }
