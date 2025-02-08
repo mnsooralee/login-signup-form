@@ -106,3 +106,9 @@ button.disabled {
     color:greenyellow;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 650px){
+    .container {
+        max-width: 90%;
+    }
+}
